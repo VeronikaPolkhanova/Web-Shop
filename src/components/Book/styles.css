@@ -1,0 +1,34 @@
+.book-main-container{
+    padding: 0 350px 0 350px;
+    display: flex;
+}
+.description-container{
+    height: 290px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.book-img-item{
+    width: 240px;
+    height: 290px;
+}
+.title-book{
+    font-size: xx-large;
+    font-weight: 500;
+    border-bottom: 1px solid #9eceff;
+}
+.author-book{
+    font-size: medium;
+    font-style: italic;
+    color: slategray;
+}
+
+.price-book{
+    font-size: larger;
+    padding-top: 20px;
+}
+.button-container{
+    display: flex;
+    justify-items: self-end;
+}

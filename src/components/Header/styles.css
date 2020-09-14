@@ -1,0 +1,30 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 350px 20px 350px;
+}
+.navigation-container{
+display: flex;
+justify-self: center;
+
+}
+.navigation {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon{
+    display: flex;
+    align-self: center;
+    color:#9eceff;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}

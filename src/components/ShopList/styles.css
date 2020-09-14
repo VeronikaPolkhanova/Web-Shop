@@ -1,0 +1,46 @@
+ .main-container{
+    padding: 0 350px 0 350px;
+ }
+ .book-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+ }
+ .item-container{
+    height: 365px;
+    text-align: center;
+    padding: 10px;
+}
+font{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*book-item*/
+.book-img{
+    width: 140px;
+    height: 190px;
+}
+.title{
+    font-size: medium;
+    font-weight: 500;
+}
+.author{
+    padding: 10px;
+    font-size: medium;
+    font-style: italic;
+    color: slategray;
+}
+.price{
+    border: solid 2px #9efecc;
+    border-radius: 10px;
+    padding: 6px 28px;
+}
+ .buy-button{
+    background-color: coral;
+    border: none;
+    color: cornsilk;
+    font-weight: bold;
+    border-radius: 35px;
+    padding: 7px 60x;
+    font-size: 14px;
+    width: 165px;
+    height: 30px;
+}
